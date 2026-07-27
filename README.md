@@ -1,0 +1,3 @@
+# anubis-mcp-server-phone
+
+This is a MCP server that is installed on a smartphone to enable app-use, data analysis, and calling
