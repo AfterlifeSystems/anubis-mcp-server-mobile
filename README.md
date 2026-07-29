@@ -23,4 +23,4 @@ automation library: https://github.com/doronz88/pymobiledevice3
 
 ## Other reference works:
 - https://mcpservers.org/servers/IngaleChinmay04/android-mcp-server
-  
+- https://github.com/Lakr233/iphone-mcp
