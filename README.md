@@ -20,3 +20,7 @@ https://appium.github.io/appium-xcuitest-driver/latest/guides/run-prebuilt-wda/
 
 ### automation
 automation library: https://github.com/doronz88/pymobiledevice3
+
+## Other reference works:
+- https://mcpservers.org/servers/IngaleChinmay04/android-mcp-server
+  
