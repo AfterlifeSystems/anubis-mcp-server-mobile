@@ -219,3 +219,20 @@ __marimo__/
 # VsCode User Settings
 
 .vscode
+
+# Xcode / macOS
+#   The .xcodeproj is generated from project.yml by XcodeGen — do not commit it.
+*.xcodeproj/
+DerivedData/
+build/
+.build/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Swift Package Manager
+.swiftpm/
+
+# App credentials must never be committed (kept in the keychain / launch env)
+credentials.json
+*.mobileprovision
