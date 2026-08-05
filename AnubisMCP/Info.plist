@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Anubis MCP</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>site.neuralnexus.anubis-mcp.wake</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>anubismcp</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSContactsUsageDescription</key>
+	<string>Allows the connected avatar to look up contacts on your behalf.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Allows the connected avatar to read and create calendar events on your behalf.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>Allows the connected avatar to create reminders on your behalf.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allows the connected avatar to report your current location when you ask it to.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>site.neuralnexus.anubis-mcp.refresh</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>maps</string>
+		<string>shortcuts</string>
+		<string>tel</string>
+		<string>sms</string>
+		<string>mailto</string>
+		<string>facetime</string>
+		<string>music</string>
+		<string>photos-redirect</string>
+		<string>doordash</string>
+		<string>ubereats</string>
+		<string>grubhub</string>
+		<string>postmates</string>
+		<string>yelp</string>
+		<string>opentable</string>
+		<string>resy</string>
+		<string>uber</string>
+		<string>lyft</string>
+		<string>spotify</string>
+		<string>youtube</string>
+		<string>instagram</string>
+		<string>twitter</string>
+		<string>whatsapp</string>
+		<string>venmo</string>
+		<string>paypal</string>
+		<string>cashme</string>
+		<string>amazon</string>
+		<string>walmart</string>
+		<string>comgooglemaps</string>
+	</array>
+</dict>
+</plist>
